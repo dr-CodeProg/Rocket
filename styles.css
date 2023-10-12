@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Open+Sans:wght@300;400&family=Oswald:wght@200&family=Roboto+Serif:opsz,wght@8..144,100&display=swap'); 
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2f1893;
+    width: auto;    
+}
+.font-light{
+    color: #ffffff;
+}
+.font-purple{
+    color: #6d5db3;
+}
+.pt-1{
+    margin-top: 0.5rem;
+}
+.pt-2{
+    padding-top: 1rem;
+}
+.pt-3{
+    padding-top: 2rem;
+}
+.mt-1{
+  margin-top: 0.5rem;
+}
+.mt-2{
+  margin-top: 1rem;
+}
+.mt-3{
+  margin-top: 2rem;
+}
+.mt-4{
+  margin-top: 3rem;
+}
+.ml-4{
+  margin-left: 3rem; 
+}
+
+.button-primary {    
+    padding: 8px 20px;
+    background-color: #e93a7d;    
+    border-radius: 20px;
+    border: none;    
+    text-align: center; 
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ffffff; 
+    display: inline-block;
+    margin-top: -5px;       
+  }
+
+header{      
+    display: flex;     
+    padding-top: 4rem;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    
+}
+.Startup-heading{    
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;    
+  }
+  
+  nav li {
+    margin-right: 30px;
+    font-size: 22px;
+  }
+  
+  nav a {
+    text-decoration: none;    
+    font-family: 'IBM Plex Sans', sans-serif; 
+  }
+  
+  main{
+    display: flex;    
+    margin: 100px;    
+  }
+    
+  .text-section h1 {
+    font-size: 100px;
+    max-width: 800px; 
+    max-height: 400px;   
+    margin-bottom: 40px;    
+    color: #fff; 
+    font-family: 'IBM Plex Sans', sans-serif;   
+  }
+  
+  .text-section p {
+    font-size: 39px; 
+    max-width: 600px;
+    color: #fff; 
+    margin-bottom: 50px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+  }  
+  
+  .sign-up-form{    
+    width: 30vw;    
+    background: #fff;
+    padding: 50px;
+    margin: 0 auto 0;  
+    border-radius: 5px;  
+    text-align: center; 
+    font-family: 'IBM Plex Sans', sans-serif;    
+  }
+  .sign-up-form h2{
+    font-size: 35px;
+    padding-top: 20px;
+    color: #1e0e62;
+    margin-bottom: 25px;    
+    font-weight: bold;
+  }
+
+  .input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline:none;
+  }
+  .separator {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 40px;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color:#ebeaed;
+    margin: 0 10px;
+  }
+  
+  .or {
+    font-size: 16px;
+    font-weight: bold;
+    color: #a1a1b0;    
+  }
+  .sign-up-btn{
+    font-size: 17px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Open Sans';  
+    color: #fff;
+    background-color: #482be7; 
+    border: none;    
+    text-align: center; 
+    text-decoration: none;
+  }
+  .twitter-btn{
+    font-size: 17px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Open Sans'; 
+    color: #fff;
+    background-color: #1da1f2; 
+    border: none;    
+    text-align: center; 
+    text-decoration: none;
+  }
+  .form-check {    
+    display: flex;    
+  }
+  
+  input[type=checkbox] {
+    width: 20px;
+    height: 20px;    
+  }
+  .form-check-label{
+    margin-left: 20px;
+  }
+  #privacy-check{
+    accent-color: #25dac5;
+  }
+  .sign-in-link{
+    text-decoration: none;
+    color: #25dac5;
+    font-weight: bold;
+    margin-left: 7PX;
+  }
+  .account-question{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    color: #a1a1b0;    
+  }  
+  input[type=email]::placeholder{
+    padding: 10px;
+    color:#a1a1b0;
+    font-family: 'Open Sans';
+    font-weight: 500;
+  }
+  input[type=password]::placeholder{
+    padding: 10px;
+    color:#a1a1b0;
+    font-family: 'Open Sans';
+    font-weight: 500;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
